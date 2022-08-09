@@ -34,6 +34,7 @@ However, as you can see here, the model's prediction on the test was pretty terr
 CrystalFeel is Multidimensional Emotion Intensity Analysis from Natural Language. It uses a collection of machine learning-based emotion analysis algorithms for analyzing the emotional-level content from natural language. CrystalFeel produces multiple psychologically meaningful analytic outputs based on a multi-theoretic conceptual ground in emotion type, emotion dimension, and emotion intensity. It is developed by researchers studying affective and social intelligence from A*STAR's Institute of High Performance Computing.
 
 Their online platform has a "Try Your Text" option - so I created a web bot that would automatically take the tweets I had scraped entered it and take the results. Here is an example: 
+
 ![Screen Shot 2022-08-09 at 6 10 13 PM](https://user-images.githubusercontent.com/94769763/183777200-4c657c9a-22d6-4944-afd1-2b35c9ae8f8e.png)
 
 While this is not good to determine public opinion of whether people are PRO Vaccine or NEG vaccine(I cannot tell if the tweet is PRO or NEG vaccine based off sentiment score), it does tell how the public feels overall towards vaccines in general. Are people mostly optimistic when talking about vaccines, or are they angry? This is the type of question that can be answered through this method, however, it was not the main focus of the project so we scrapped the idea. 
@@ -42,9 +43,11 @@ While this is not good to determine public opinion of whether people are PRO Vac
 We decided to then to just hand rate whether a tweet was pro or neg vaccine for the top 100 tweets with the most likes. We did this because  popular tweets because, instead of just 100 tweets with one or two likes, we had about 1.4million interactions on twitter on this topic.
 
 Based off just counts:
+
 ![Screen Shot 2022-08-09 at 6 16 46 PM](https://user-images.githubusercontent.com/94769763/183777918-a04693c0-ad73-4a4b-800d-554ecac12ad5.png)
 
 When Adding Likes as Weight: 
+
 ![Screen Shot 2022-08-09 at 6 16 40 PM](https://user-images.githubusercontent.com/94769763/183777957-ed3b2ede-1bf0-4b1e-a34e-a8910f35aa37.png)
 
 ![Screen Shot 2022-08-09 at 6 18 38 PM](https://user-images.githubusercontent.com/94769763/183778000-daa1d09f-e9b1-429f-9eb6-be1380ca2bb5.png)
@@ -55,9 +58,14 @@ We found that in count NEG vaccine tweets heavily dominate, however, when adding
 Kaiser Family Foundation 2021 Monthly Vaccine Monitor 
 Question we focused on: “Have you personally received the COVID-19 vaccine or not?”
 Chosen because sample size is consistent, source is credible and the method measures actions regarding subject
+
 ![Screen Shot 2022-08-09 at 6 23 38 PM](https://user-images.githubusercontent.com/94769763/183778436-ba1ad52d-7b41-40b0-b310-ba301fe11e5f.png)
 
 Public polling data tells us that people against the vaccine are in the minority, however Twitter data with weight tells us that it’s closer to a 50/50 split. Twitter data without weight tells us a majority are against. 
+
+## Final Thoughts
+
+This was my first project ever using machine learning and I chose NLP... If I were to do this project again, I would have a completely different stragety, use completely different libraries, and even use a different topic. However, I am happy with what I was able to acomplish in a week through self learning and mentorship. 
 
 ## Other Research 
 
