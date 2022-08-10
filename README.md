@@ -39,7 +39,7 @@ Their online platform has a "Try Your Text" option - so I created a web bot that
 
 While this is not good to determine public opinion of whether people are PRO Vaccine or NEG vaccine(I cannot tell if the tweet is PRO or NEG vaccine based off sentiment score), it does tell how the public feels overall towards vaccines in general. Are people mostly optimistic when talking about vaccines, or are they angry? This is the type of question that can be answered through this method, however, it was not the main focus of the project so we scrapped the idea. 
 
-## Anylasis 
+## Analysis
 We decided to then to just hand rate whether a tweet was pro or neg vaccine for the top 100 tweets with the most likes. We did this because  popular tweets because, instead of just 100 tweets with one or two likes, we had about 1.4million interactions on twitter on this topic.
 
 Based off just counts:
